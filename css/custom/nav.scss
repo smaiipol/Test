@@ -1,0 +1,232 @@
+.is-hidden{
+	-webkit-transform: translate3d(0, -110%, 0);
+    transform: translate3d(0, -110%, 0);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s,
+}
+
+.nav-hamburger{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	padding: 23px 60px 0 60px;
+	z-index: 99;
+	transition: transform 0.5s;
+	@media (max-width: 550px) {
+		padding: 20px 20px 13px 20px;
+	}
+	&.bg-white{
+		padding: 23px 60px 23px 60px;
+		background: white;
+		@media (max-width: 550px) {
+			padding: 20px 20px 13px 20px;
+		}
+	}
+	.nav-left{
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		.menu{
+			margin-left: 118px;
+			@media (max-width: 1280px) {
+				display: none;
+			}
+			ul{
+				display: flex;
+				padding: 0;
+				list-style: none;
+				li{
+					margin-right: 26px;
+					a{
+						font-family: $ob;
+						font-size: 16px;
+						line-height: 26px;
+						color: $black;
+						transition: All 0.3s ease-in-out;
+						@media (max-width: 1439px) {
+							font-size: 14px;
+							line-height: 1.3;
+						}
+					}
+					&:hover a{
+						color: #faa42d;
+						text-decoration: none;
+					}
+					&.active a{
+						color: #faa42d;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}
+	.nav-right{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		@media (max-width: 1280px) {
+			display: none;
+		}
+		.switch-language{
+			height: 42px;
+			line-height: 42px;
+			margin-right: 50px;
+			ul{
+				display: flex;
+				justify-content: space-between;
+				list-style: none;
+				li{
+					a{
+						color: $black;
+						transition: All 0.3s ease-in-out;
+						-webkit-transition: All 0.3s ease-in-out;
+						-moz-transition: All 0.3s ease-in-out;
+						-o-transition: All 0.3s ease-in-out;
+						font-family: $ob;
+						font-size: 14px;
+					}
+					&:nth-child(1) > a:after{
+						content: '|';
+						margin-left: 8px;
+						margin-right: 8px;
+						color: black;
+					}
+					&:hover a{
+						color: $green;
+						text-decoration: none;
+					}
+					&.active a{
+						color: $green;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+		.borrower-login{
+		}
+	}
+	.nav-hamburger{
+		display: none;
+		outline: none!important;
+		*{
+			outline: none!important;
+		}
+		@media (max-width: 1280px) {
+			display: flex;
+		}
+	}
+}
+
+.menu-hide{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 98;
+	top: 0;
+	left: 100%;
+	transition: all 0.3s, background-color 1s;
+	background-color: rgba(255, 255, 255, 0);
+	&.on{
+		left: 0;
+		background-color: rgba(255, 255, 255, 0.9);
+	}
+	@media (max-width: 980px) {
+		.menu-hide {
+			left: 0;
+			top: -100%;
+		}
+	}
+	.menu-shadow{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 52%;
+		height: 100%;
+	}
+	.menu-content{
+		position: relative;
+		padding-top: 31px;
+		background-color: #fff;
+		height: 100%;
+		margin-left: 52%;
+		padding-left: 30px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: left;
+		align-items: center;
+		@media (max-width: 900px) {
+			margin-left: 20%;
+		}
+		@media (max-width: 400px) {
+			margin-left: 0;
+		}
+		ul.menu-content-menu{
+			width: 100%;
+			padding: 0;
+			list-style: none;
+			li{
+				margin-right: 26px;
+				a{
+					font-family: $ob;
+					font-size: 30px;
+					line-height: 1.5;
+					color: $black;
+					transition: All 0.3s ease-in-out;
+					@media (max-width: 500px) {
+						font-size: 25px;
+						line-height: 1.4;
+					}
+				}
+				&:hover a{
+					color: #faa42d;
+					text-decoration: none;
+				}
+				&.active a{
+					color: #faa42d;
+					text-decoration: none;
+				}
+			}
+		}
+
+		ul.menu-content-language{
+			display: flex;
+			padding: 0;
+			list-style: none;
+			li{
+				a{
+					color: $black;
+					transition: All 0.3s ease-in-out;
+					-webkit-transition: All 0.3s ease-in-out;
+					-moz-transition: All 0.3s ease-in-out;
+					-o-transition: All 0.3s ease-in-out;
+					font-family: $ob;
+					font-size: 14px;
+				}
+				&:nth-child(1) > a:after{
+					content: '|';
+					margin-left: 8px;
+					margin-right: 8px;
+					color: black;
+				}
+				&:hover a{
+					color: $green;
+					text-decoration: none;
+				}
+				&.active a{
+					color: $green;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}

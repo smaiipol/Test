@@ -1,0 +1,161 @@
+body{
+	font-family: $or;
+	font-size: 16px;
+	line-height: 26px;
+	&.scroll{
+		overflow: hidden;
+	}
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	font-family: $or;
+}
+
+h2{
+	font-family: $oe;
+	color: $green;
+	font-size: 40px;
+	line-height: 55px;
+	margin-bottom: 20px;
+}
+
+h3{
+	font-family: $oe;
+	color: $green;
+	font-size: 30px;
+	line-height: 1.3;
+}
+
+.has-line{
+	&:after{
+		content: '';
+		display: block;
+		width: 96px;
+		height: 2px;
+		background: $yellow;
+		margin: 28px auto;
+	}
+}
+
+.line-left{
+	&:after{
+		margin: 28px 0;
+	}
+}
+
+.btn{
+	display: inline-block;
+	padding: 0px 22px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	border-radius: 21px;
+	font-family: $os;
+	font-size: 14px;
+	color: white;
+	transition: All 0.3s ease-in-out;
+	border: 1px solid transparent;
+}
+
+.segmenting-line{
+	width: 100%;
+	height: 1px;
+	background: #D2D2D2;
+	margin: 50px 0;
+}
+
+.btn-large{
+	font-size: 18px;
+	padding: 0px 53px;
+	@media (max-width: 500px) {
+		padding: 0 20px;
+	}
+}
+
+.btn-green{
+	background: $green;
+	&:hover{
+		background: white;
+		color: $green;
+		text-decoration: none;
+		border: 1px solid $green;
+	}
+}
+
+.btn-yellow{
+	background: $yellow;
+	&:hover{
+		background: white;
+		color: $yellow;
+		text-decoration: none;
+		border: 1px solid $yellow;
+	}
+}
+
+.icon-texts{
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	max-width: 1170px;
+	margin: 0 auto ;
+	justify-content: space-between;
+	.icon-text-block{
+		flex: 0 0 25%;
+		text-align: center;
+		.count{
+			width: 96px;
+			height: 40px;
+			line-height: 40px;
+			text-align: center;
+			border: 1px solid $green;
+			border-radius: 20px;
+			margin: 0 auto 44px auto;
+		}
+		.icon{
+			margin-bottom: 37px;
+			img{
+				max-height: 75px;
+			}
+		}
+		.icon-title{
+			font-family: $or;
+			color: #2BAF49;
+			font-size: 20px;
+			line-height: 26px;
+			margin-bottom: 10px;
+		}
+		.icon-text{
+			font-family: $or;
+			color: #555;
+			font-size: 14px;
+			line-height: 26px;
+			span.green{
+				font-family: $ob;
+				font-size: 30px;
+				line-height: 32px;
+				color: #94C93B;
+			}
+			span.green-small{
+				font-family: $ob;
+				font-size: 20px;
+				line-height: 26px;
+				color: #94C93B;
+			}
+			span.black{
+				font-family: $ob;
+				font-size: 16px;
+				line-height: 32px;
+				color: #555;
+			}
+			br{
+				@media (max-width: 1024px) {
+					display: none;
+				}
+			}
+		}
+	}
+}

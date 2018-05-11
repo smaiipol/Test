@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="12px" viewBox="0 0 9 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Flare-Arrow-Down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect x="1329.4" y="3229.4" width="11.6" height="7.6" id="rect-1"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Brighten-home-Copy-11" transform="translate(-1331.000000, -3227.000000)">
+            <g id="Flare-Arrow-Down" transform="translate(1335.200000, 3233.200000) rotate(-90.000000) translate(-1335.200000, -3233.200000) ">
+                <image x="1329.4" y="3229.4" width="11.6" height="7.6" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAATCAYAAABsmQZ/AAAAAXNSR0IArs4c6QAAAOpJREFUSA21kw0RgzAMRpGAlEmYFKTgpBKQgAQkIAEJ7AWaje5oSkvJXS5tfr5XoDQNtq5rj4/eO8nVMjTfB+2BdatA1oG5GlAUu0B130wCnU8KkroFZv4MuKEsaDHYAoqoQHtZGJb1xOhEn9Azxu3TsXE+EQuXwAyngBM97fe+sHG4ZSaYwTygkhl0FlXq2nuM5MuAKiLCuGUBmMZ7wFxwNWAGuAe6GK8kvDQqnIoIOkPUKpUB9UAoD5b6SW0m9/stVCgnigAuJ79iC02vHP1oL0JXwPWAepIEuD4wAX4OGAE/D/wDD6WX5gOIYeTyoL1/HwAAAABJRU5ErkJggg=="></image>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#rect-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

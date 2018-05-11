@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="54px" viewBox="0 0 62 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Asset 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#06A54C" offset="0%"></stop>
+            <stop stop-color="#06A54C" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="2350%" x2="6173%" y2="2350%" id="linearGradient-2">
+            <stop stop-color="#06A54C" offset="0%"></stop>
+            <stop stop-color="#06A54C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Self-Employed" transform="translate(-919.000000, -1328.000000)" fill-rule="nonzero">
+            <g id="Asset-10" transform="translate(920.000000, 1329.000000)">
+                <polygon id="Shape" fill="#424143" points="39.49 52.34 44.86 52.34 44.86 27.66 39.49 33.03"></polygon>
+                <polygon id="Shape" fill="#424143" points="47.35 52.34 52.34 52.34 52.34 20.18 47.35 25.16"></polygon>
+                <polygon id="Shape" fill="#424143" points="31.63 40.9 31.63 52.34 36.99 52.34 36.99 35.53 32.7 39.83"></polygon>
+                <polygon id="Shape" fill="#424143" points="23.76 36.19 23.76 52.34 29.13 52.34 29.13 41.55 27.41 39.83"></polygon>
+                <polygon id="Shape" fill="#424143" points="21.63 36.19 21.63 52.34 16.26 52.34 16.26 41.55 17.99 39.83"></polygon>
+                <polygon id="Shape" fill="#424143" points="14.63 42.19 14.63 52.34 9.26 52.34 9.26 47.55 10.99 45.83"></polygon>
+                <path d="M57.16,3.33066907e-16 L37.59,3.33066907e-16 L45,7.41 L42.35,10.06 L30.05,22.36 L22.64,15 L0,37.6 L7.41,45 L22.64,29.77 L30.05,37.18 L52.41,14.82 L59.73,22.14 L59.73,2.46 C59.6466841,1.09491903 58.5274182,0.0235594656 57.16,3.33066907e-16 Z" id="Shape" stroke="url(#linearGradient-2)" stroke-width="2" fill="url(#linearGradient-1)" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
